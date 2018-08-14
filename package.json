@@ -6,6 +6,7 @@
     "start": "webpack-dev-server --open --mode development --config webpack.dev.js",
     "lint": "eslint \"./server/**/*.js\" \"./client/**/*.jsx\" \"./client/**/*.js\"",
     "lint:fix": "eslint \"**/*.js\" \"**/*.jsx\" --fix",
+    "test": "echo OK!",
     "build": "webpack --mode production --config webpack.prod.js",
     "prepack": "webpack --mode production --config webpack.prod.js"
   },
