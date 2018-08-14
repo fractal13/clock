@@ -5,6 +5,7 @@ node_js:
 deploy:
   provider: npm
   email: 2roy999@gmail.com
+  skip_cleanup: true
   api_key:
     secure: HXIgisFin33gT7e4VIwPx615Wdmt5VQN4f1v3QCYeqVB7/AIjNR4C6lpJ4GRAMbDT/5luuF4AD5Ifw+i+fRYUpMno9dY/NcAcLus1B3r3nqP09FS/pLOeJk3nDQFiTxmv0B4ms2I1gL8STQsIByYADaJ/Clg24dxnVe05HoPcQ0=
   on:
